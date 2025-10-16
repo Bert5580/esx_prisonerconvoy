@@ -1,0 +1,5 @@
+[2025-10-03] v1.4.1
+- Finalized event wiring to eliminate missing client/server handlers
+- Added minimal `/convoy jail [min]` nearest-target selection + server enforcement
+- Verified no duplicate command registrations; removed unused variants
+- Kept custom route system (Config.Routes.ToPrison) and driving style 786603
