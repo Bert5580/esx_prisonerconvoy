@@ -5,7 +5,7 @@ lua54 'yes'
 name 'esx_prisonerconvoy'
 description 'Prisoner convoy with police escort, anti-stall, jail handoff, and route navigation (optimized)'
 author 'Bert + Assistant'
-version '1.5.0'
+version 'Ev1.5.0'
 
 shared_scripts {{
   'config.lua',
