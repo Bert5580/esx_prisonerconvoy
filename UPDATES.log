@@ -1,5 +1,7 @@
-[2025-10-03] v1.4.1
-- Finalized event wiring to eliminate missing client/server handlers
-- Added minimal `/convoy jail [min]` nearest-target selection + server enforcement
-- Verified no duplicate command registrations; removed unused variants
-- Kept custom route system (Config.Routes.ToPrison) and driving style 786603
+### 2025-10-16 — v1.5.0
+- Refactor: single-file client, explicit nil-guards and safe timers
+- Driving: standardized **DriveStyle = 443** (per user preference) and speed caps
+- Stability: anti-stall clear + route re-path when distance threshold exceeded
+- UI: local jail timer overlay with min 15 minutes enforced
+- Server: ESX imports, optional mysql-async jail logging
+- Docs: README.md updated, commands & configuration clarified
