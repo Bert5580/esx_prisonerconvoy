@@ -1,4 +1,4 @@
-# esx_prisonerconvoy (v1.4.1)
+# esx_prisonerconvoy (Ev1.4.2)
 
 Stable ESX prisoner convoy with a configurable AI bus driver and customizable pathing.
 
